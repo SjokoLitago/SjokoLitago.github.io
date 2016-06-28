@@ -3,8 +3,44 @@ html{
 	position: relative;
 }
 
+body{
+	margin: 0;
+	margin-bottom: 80px;
+}
+
 .header{
 	width: 100%;
 	height: 600px;
 	background: #1a1a1a;
+}
+
+.hover-card1,
+.hover-card2,
+.hover-card3,
+.hover-card4{
+	position: relative;
+	display: inline-block;
+	top: 50px;
+	width: 20%;
+	height: 500px;
+	background: #2a2a2a;
+	margin-left: 50px;
+	margin-right: 40px;
+	
+}	
+
+.hover-card1:hover,
+.hover-card2:hover,
+.hover-card3:hover,
+.hover-card4:hover{
+	background: linear-gradient(#00A8B2,#FF021A);
+}
+
+
+.footer{
+	position: absolute;
+	bottom: 0;
+	background: #1a1a1a;
+	height: 80px;
+	width: 100%;
 }
